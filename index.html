@@ -4,24 +4,65 @@
     <meta charset="UTF-8">
     <title>Fork Me! FCC: Test Suite Template</title>
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
   </head>
-
   <body>
     <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+    <div id="main">
+      <div class="text-center">
+        <h1 id="title">freeCodeCamp Survey Form</h1>
+        <p id="description">Thank you for taking the time to help us improve the platform</p>
+      </div>
+    <div class="container" bg-dark p-4 id="form-container">
+      <form action="" id="survey-form">
+        <div id="form-group">
+          <label for="" id="name-label">Name</label>
+        <input type="text" name="" id="name" placeholder="Enter your name" required>
+        </div>
+        <div id="form-group">
+          <label for="" id="email-label">Email</label>
+          <input type="email" name="" id="email" placeholder="Enter your email" required>
+        </div>
+        <div id="form-group">
+          <label for="" id="number-label">Age(optional)</label>
+          <input type="number" name="" min="18" max="40" id="number" placeholder="Age" required>
+        </div>
+        <div id="form-group">
+          <label for="">Which option best describes your current role?</label>
+          <select name="" id="dropdown" class="form-control">
+            <option value="Select current role" disabled default>Select current role</option> 
+            <option value="Student">Student</option>         
+            <option value="Full-Time-Job">Full Time Job</option>
+            <option value="Full-Time-Learner">Full Time Learner</option>
+            <option value="Prefer-not-to-say">Prefer not to say</option>
+            <option value="Other">Other</option>
+          </select>
+        </div>
+        <div class="form-check">
+          <label class="form-check-label">
+            <input type="radio" class="form-check-input" name="definitely">Definitely
+          </label>
+        </div>
+        <div class="form-check">
+          <label class="form-check-label">
+            <input type="radio" class="form-check-input" name="maybe">Maybe
+          </label>
+        </div>
+        <div class="form-check disabled">
+          <label class="form-check-label">
+            <input type="radio" class="form-check-input" name="optradio" disabled>Option 3
+          </label>
+        </div> 
+        <div id="form-group"></div>
+        <div id="form-group"></div>
+        <div id="form-group"></div>
+        <div id="form-group"></div>
+      </form>
+    </div>
 
-    <!--
-
-    Hello Camper!
-
-    For now, the test suite only works in Chrome!
-    Please read the README below in the JS Editor before beginning.
-    Feel free to delete this message once you have read it.
-    Good luck and Happy Coding!
-
-    - The freeCodeCamp Team
-
-    -->
-    <h1>Hello world</h1>
+    </div>
+   
+    
     <script  src="js/index.js"></script>
   </body>
 </html>
