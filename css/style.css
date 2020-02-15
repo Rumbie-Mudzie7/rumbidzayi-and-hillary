@@ -4,11 +4,12 @@
 }
 
 body{
-    background-image: url("/images/my-bg.jpeg");
+    background-image: url("https://images.pexels.com/photos/374720/pexels-photo-374720.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500");
     background-size: cover;
     background-position: center center;
     background-attachment: fixed;
     background-repeat: no-repeat;
+   color: #fff;
 }
 
 #main{
@@ -20,7 +21,7 @@ body{
 #form-container {
   max-width: 700px;
   margin: 0 auto;
-  background-color: rgba(23, 95, 72, 0.6);
+  background-color: rgba(23, 95, 72, 0.3);
 }
 
 .descr,
